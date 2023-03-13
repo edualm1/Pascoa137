@@ -1,4 +1,4 @@
-// Bibliotecas
+package unitTest;// Bibliotecas
 
 import br.com.iterasys.Calculadora;
 import org.junit.jupiter.api.Test;
@@ -59,7 +59,7 @@ public class TesteCalculadora {
         // Os dados de entrada e o resultado esperado vem da lista
 
         // Executa
-        double resultadoAtual = Calculadora.somarDoisNumeros(Integer.valueOf(txtNum1), Integer.valueOf(txtNum2)
+        double resultadoAtual = Calculadora.somarDoisNumeros(Integer.valueOf(txtNum1), Integer.valueOf(txtNum2));
 
         // Valida
         assertEquals(Double.valueOf(resultadoEsperado),resultadoAtual);
